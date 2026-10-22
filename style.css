@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#ex1 ol{
+    background-color: rgb(236, 167, 190);
+    margin: 10px;
+    padding: 10px;
+    color: antiquewhite;
+}
+
+
+#ex1 ol div{
+    background-color: rgb(190, 100, 130);
+    margin: 10px;
+    padding: 10px 30px;
+}
+
+#ex1 ol li p{
+    display: inline;
+    background-color: rgb(113, 37, 63);
+    margin-left: 5px;
+    padding: 10px 30px;
+}
+
+
+
+
+#ex2{
+    list-style-image: url("/icons/unchecked_16.png");
+    margin: 30px;
+}
+
+#ex2 ul{
+    
+    padding: 0px;
+}
+
+#ex2 div{
+    background-color: #9EC7DB;
+    padding: 20px 50px;
+    padding-left: 70px;
+}
+#ex2 .ch{
+    list-style-image: url("/icons/checked_16.png");
+    background-color: #E5E5E6;
+    /* text-decoration: line-through; */
+}
+
+#ex2 .ch li span{
+    text-decoration: none;
+}
+
+#ex2 .unchPair{
+    background-color: #A7D7E8;
+}
+#ex2 span{
+    text-decoration: none;
+    padding-left: 20px;
+    color: brown;
+}
+#ex2 span.ch{
+    text-decoration: none;
+}
+#ex2 p{
+    display: inline;
+    text-decoration: line-through;
+}
+#ex2 li{
+    padding-left: 20px;
+
+}
